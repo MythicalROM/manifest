@@ -13,7 +13,7 @@
            fetch="https://github.com/TheMuppets" />
 
   <remote  name="mythical"
-           fetch="ssh://git@bitbucket.org/mythicalrom/" />
+           fetch="ssh://git@bitbucket.org/mythicalrom" />
 
   <remote  name="cm"
            fetch="git://github.com"
