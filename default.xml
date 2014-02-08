@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
@@ -18,6 +17,9 @@
   <remote  name="cm"
            fetch="git://github.com"
            review="review.cyanogenmod.org" />
+
+  <remote  name="linaro"
+           fetch="git://android.git.linaro.org/" />
 
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
@@ -421,8 +423,11 @@
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" groups="pdk,darwin,x86" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-linaro" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.7-linaro" remote="mythical" revision="myth-4.4" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8-linaro" remote="mythical" revision="myth-4.4" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7-linaro" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7-linaro" remote="linaro" revision="master" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux" />
