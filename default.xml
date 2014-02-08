@@ -12,8 +12,8 @@
   <remote  name="blobs"
            fetch="https://github.com/TheMuppets" />
 
-  <remote  name="paranoid"
-           fetch="ssh://git@bitbucket.org/paranoidandroid/" />
+  <remote  name="mythical"
+           fetch="ssh://git@bitbucket.org/mythicalrom/" />
 
   <remote  name="cm"
            fetch="git://github.com"
@@ -25,9 +25,9 @@
            sync-f="true"
            sync-j="4" />
 
-  <project path="manifest" name="AOSPA-legacy/manifest" remote="github" revision="kitkat" />
+  <project path="manifest" name="manifest" remote="mythical" revision="myth-4.4" />
 
-  <project path="build" name="AOSPA-legacy/android_build" remote="github" revision="kitkat" >
+  <project path="build" name="android_build" remote="mythical" revision="myth-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
