@@ -55,6 +55,7 @@
 
 <!-- OMNI -->
   <project path="packages/apps/DSPManager" name="omnirom/android_packages_apps_DSPManager" remote="github" revision="android-4.4" />
+  <project path="packages/apps/Apollo" name="omnirom/android_packages_apps_Apollo" remote="github" revision="android-4.4" />
   <project path="hardware/samsung" name="omnirom/android_hardware_samsung" remote="github" revision="android-4.4" />
   <project path="kernel/samsung/smdk4412" name="omnirom/android_kernel_samsung_smdk4412" remote="github" revision="android-4.4" />
 
