@@ -58,6 +58,7 @@
   <project path="packages/apps/Apollo" name="omnirom/android_packages_apps_Apollo" remote="github" revision="android-4.4" />
   <project path="hardware/samsung" name="omnirom/android_hardware_samsung" remote="github" revision="android-4.4" />
   <project path="kernel/samsung/smdk4412" name="omnirom/android_kernel_samsung_smdk4412" remote="github" revision="android-4.4" />
+  <project path="system/media" name="omnirom/android_system_media" remote="github" revision="android-4.4" groups="pdk" />
 
 <!-- QCOM -->
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="cm" revision="cm-11.0" />
@@ -459,7 +460,6 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="AOSPA-legacy/android_system_core" remote="github" revision="kitkat" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="cm" revision="cm-11.0"/>
-  <project path="system/media" name="CyanogenMod/android_system_media" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" remote="cm" revision="cm-11.0" groups="qcom" />
   <project path="system/security" name="android_system_security" remote="mythical" revision="myth-4.4" />
