@@ -33,17 +33,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-<!-- FALCON -->
-  <project path="device/motorola/falcon" name="android_device_motorola_falcon" remote="mythical" revision="myth-4.4" />
-  <project path="device/motorola/msm8226-common" name="android_device_motorola_msm8226-common" remote="mythical" revision="myth-4.4" />
-  <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="mythical" revision="myth-4.4" />
-  <project path="kernel/motorola/msm8226" name="android_kernel_motorola_msm8226" remote="mythical" revision="myth-4.4" />
-
-<!-- n7000 & i9100 -->
-  <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="mythical" revision="myth-4.4" />
-  <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" remote="mythical" revision="myth-4.4" />
-  
-
 <!-- PROPRIETARY FILES -->
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="mythical" revision="cm-11.0" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="blobs" revision="cm-11.0" />
@@ -56,8 +45,6 @@
 <!-- OMNI -->
   <project path="packages/apps/DSPManager" name="omnirom/android_packages_apps_DSPManager" remote="github" revision="android-4.4" />
   <project path="packages/apps/Apollo" name="omnirom/android_packages_apps_Apollo" remote="github" revision="android-4.4" />
-  <project path="hardware/samsung" name="omnirom/android_hardware_samsung" remote="github" revision="android-4.4" />
-  <project path="kernel/samsung/smdk4412" name="omnirom/android_kernel_samsung_smdk4412" remote="github" revision="android-4.4" />
   <project path="system/media" name="omnirom/android_system_media" remote="github" revision="android-4.4" groups="pdk" />
 
 <!-- QCOM -->
