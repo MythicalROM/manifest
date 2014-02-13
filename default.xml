@@ -36,6 +36,7 @@
 <!-- PROPRIETARY FILES -->
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="mythical" revision="cm-11.0" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="blobs" revision="cm-11.0" />
+  <project path="vendor/sony" name="proprietary_vendor_sony" remote="blobs" revision="cm-11.0" />
 
 <!-- MYTHICAL -->
  <project path="frameworks/base" name="android_frameworks_base" remote="mythical" revision="myth-4.4" />
