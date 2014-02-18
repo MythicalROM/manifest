@@ -3,12 +3,12 @@ Mythical
 
 Submitting Patches
 ------------------
-We're closed source, and patches are always welcome, always they work!
+We're copen source, and patches are always welcome, always they work!
 You can send patches by pull request.
 
-To initialize your local repository using the ParanoidAndroid trees, use a command like this:
+To initialize your local repository using the MythicalROM trees, use a command like this:
 
-    repo init -u git@bitbucket.org:mythicalrom/manifest.git -b myth-4.4
+    repo init -u git://github.com/MythicalROM/manifest.git -b myth-4.4
 
 Then to sync up:
 

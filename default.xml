@@ -12,7 +12,7 @@
            fetch="https://github.com/TheMuppets" />
 
   <remote  name="mythical"
-           fetch="ssh://git@bitbucket.org/mythicalrom" />
+           fetch="https://github.com/MythicalROM" />
 
   <remote  name="cm"
            fetch="git://github.com"
@@ -40,7 +40,6 @@
 <!-- MYTHICAL -->
  <project path="frameworks/base" name="android_frameworks_base" remote="mythical" revision="myth-4.4" />
  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="mythical" revision="myth-4.4" />
- <project path="packages/apps/MythicalLightning" name="android_packages_apps_MythicalLightning" remote="mythical" revision="myth-4.4" />
 
 <!-- OMNI -->
   <project path="packages/apps/DSPManager" name="omnirom/android_packages_apps_DSPManager" remote="github" revision="android-4.4" />
