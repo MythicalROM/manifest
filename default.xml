@@ -12,7 +12,8 @@
            fetch="https://github.com/TheMuppets" />
 
   <remote  name="mythical"
-           fetch="https://github.com/MythicalROM" />
+           fetch="https://github.com/MythicalROM"
+           review="gerrit.mythicalrom.com" />
 
   <remote  name="cm"
            fetch="git://github.com"
